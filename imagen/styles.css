@@ -1,0 +1,71 @@
+/* Estils generals de la pàgina */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfe6e9;
+    font-family: Arial, sans-serif;
+}
+
+/* Tarjeta principal */
+.pokemon-card {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+}
+
+/* Imatge del Pokémon */
+.pokemon-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* Informació del Pokémon */
+.pokemon-info {
+    background-color: #c8f7c5;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* Nom del Pokémon */
+.pokemon-name {
+    font-size: 2rem;
+    color: #2d3436;
+    margin-bottom: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+/* Tipus del Pokémon */
+.pokemon-type {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+/* Tipus planta */
+.plant {
+    background-color: #27ae60;
+}
+
+/* Tipus verí */
+.poison {
+    background-color: #8e44ad;
+}
+
+/* Descripció */
+.pokemon-description {
+    font-size: 0.9rem;
+    color: #636e72;
+    line-height: 1.5;
+}
